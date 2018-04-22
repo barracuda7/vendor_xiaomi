@@ -1,1 +1,1 @@
-Xiomi Vendor files for Mi6 Sagit
+xiaomi Vendor files for Mi6 Sagit
