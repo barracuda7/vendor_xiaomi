@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/msm8998-common/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/msm8998-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/xiaomi/msm8998-common/proprietary/etc/camera/imx386_semco_chromatix.xml:system/etc/camera/imx386_semco_chromatix.xml \
     vendor/xiaomi/msm8998-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/msm8998-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/msm8998-common/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
@@ -129,6 +130,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:system/vendor/lib/hw/sound_trigger.primary.msm8998.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/hw/vulkan.msm8998.so:system/vendor/lib/hw/vulkan.msm8998.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libchromatix_imx386_semco_4K_video.so:system/vendor/lib/libchromatix_imx386_semco_4K_video.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libchromatix_imx386_semco_hdr_video_3a.so:system/vendor/lib/libchromatix_imx386_semco_hdr_video_3a.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libchromatix_imx386_semco_hfr_60_3a.so:system/vendor/lib/libchromatix_imx386_semco_hfr_60_3a.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libchromatix_imx386_semco_hfr_60_3a.so_:system/vendor/lib/libchromatix_imx386_semco_hfr_60_3a.so_ \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libchromatix_imx386_semco_zsl_video.so:system/vendor/lib/libchromatix_imx386_semco_zsl_video.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libmmcamera_centaur_imx268_ofilm.so:system/vendor/lib/libmmcamera_centaur_imx268_ofilm.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libmmcamera_imx268.so:system/vendor/lib/libmmcamera_imx268.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libmmcamera_imx386_semco.so:system/vendor/lib/libmmcamera_imx386_semco.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libmmcamera_s5k3m3_semco.so:system/vendor/lib/libmmcamera_s5k3m3_semco.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libmmcamera_sagit_imx268_liteon.so:system/vendor/lib/libmmcamera_sagit_imx268_liteon.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
