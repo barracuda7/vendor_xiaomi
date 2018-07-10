@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/xiaomi/sagit/proprietary/etc/camera/imx268_chromatix.xml:system/etc/camera/imx268_chromatix.xml \
-    vendor/xiaomi/sagit/proprietary/etc/camera/imx386_semco_chromatix.xml:system/etc/camera/imx386_semco_chromatix.xml \
     vendor/xiaomi/sagit/proprietary/etc/camera/s5k3m3_semco_chromatix.xml:system/etc/camera/s5k3m3_semco_chromatix.xml \
     vendor/xiaomi/sagit/proprietary/etc/camera/sagit_imx268_liteon_chromatix.xml:system/etc/camera/sagit_imx268_liteon_chromatix.xml \
     vendor/xiaomi/sagit/proprietary/etc/firmware/tfa98xx_aac.cnt:system/etc/firmware/tfa98xx_aac.cnt \
@@ -67,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx268_zsl_preview_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_zsl_video_3a.so:system/vendor/lib/libchromatix_imx268_zsl_video_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_4K_preview.so:system/vendor/lib/libchromatix_imx386_semco_4K_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_4K_video.so:system/vendor/lib/libchromatix_imx386_semco_4K_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_common.so:system/vendor/lib/libchromatix_imx386_semco_common.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx386_semco_cpp_hfr_120.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx386_semco_cpp_hfr_60.so \
@@ -82,11 +80,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_default_preview.so:system/vendor/lib/libchromatix_imx386_semco_default_preview.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_default_video.so:system/vendor/lib/libchromatix_imx386_semco_default_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx386_semco_hdr_snapshot_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_hdr_video_3a.so:system/vendor/lib/libchromatix_imx386_semco_hdr_video_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_hfr_120.so:system/vendor/lib/libchromatix_imx386_semco_hfr_120.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_hfr_120_3a.so:system/vendor/lib/libchromatix_imx386_semco_hfr_120_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_hfr_60.so:system/vendor/lib/libchromatix_imx386_semco_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_hfr_60_3a.so:system/vendor/lib/libchromatix_imx386_semco_hfr_60_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_hfr_90.so:system/vendor/lib/libchromatix_imx386_semco_hfr_90.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_hfr_90_3a.so:system/vendor/lib/libchromatix_imx386_semco_hfr_90_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_liveshot.so:system/vendor/lib/libchromatix_imx386_semco_liveshot.so \
@@ -97,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_video.so:system/vendor/lib/libchromatix_imx386_semco_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_video_hdr.so:system/vendor/lib/libchromatix_imx386_semco_video_hdr.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_zsl_preview.so:system/vendor/lib/libchromatix_imx386_semco_zsl_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_zsl_video.so:system/vendor/lib/libchromatix_imx386_semco_zsl_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_semco_1080p_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_semco_1080p_preview_ad5816g.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_semco_1080p_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_semco_1080p_video_ad5816g.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_semco_4k_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_semco_4k_preview_ad5816g.so \
@@ -156,10 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx268_liteon_video_4k.so:system/vendor/lib/libchromatix_sagit_imx268_liteon_video_4k.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx268_liteon_zsl_preview_3a.so:system/vendor/lib/libchromatix_sagit_imx268_liteon_zsl_preview_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx268_liteon_zsl_video_3a.so:system/vendor/lib/libchromatix_sagit_imx268_liteon_zsl_video_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_imx268.so:system/vendor/lib/libmmcamera_imx268.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_imx386_semco.so:system/vendor/lib/libmmcamera_imx386_semco.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_s5k3m3_semco.so:system/vendor/lib/libmmcamera_s5k3m3_semco.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_imx268_liteon.so:system/vendor/lib/libmmcamera_sagit_imx268_liteon.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_imx268_liteon_eeprom.so:system/vendor/lib/libmmcamera_sagit_imx268_liteon_eeprom.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_imx268_primax_eeprom.so:system/vendor/lib/libmmcamera_sagit_imx268_primax_eeprom.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_imx386_semco_eeprom.so:system/vendor/lib/libmmcamera_sagit_imx386_semco_eeprom.so \
